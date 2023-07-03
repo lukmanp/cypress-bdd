@@ -1,0 +1,21 @@
+{
+  "name": "section7_edubdd",
+  "version": "1.0.0",
+  "description": "Automation cypress with bdd",
+  "main": "index.js",
+  "author": "Lukman",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.15.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "@cypress/browserify-preprocessor": "^3.0.2"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run" : "cypress run"
+  }
+}
